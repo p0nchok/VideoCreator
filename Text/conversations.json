@@ -1,0 +1,101 @@
+[{
+        "title": "Interesting Israeli Facts",
+        "create_time": 1687872528.044176,
+        "update_time": 1687872813.0,
+        "mapping": {
+            "34d56eb4-d4a9-48d3-907e-257ec129f569": {
+                "id": "34d56eb4-d4a9-48d3-907e-257ec129f569",
+                "message": {
+                    "id": "34d56eb4-d4a9-48d3-907e-257ec129f569",
+                    "author": {
+                        "role": "system",
+                        "name": null,
+                        "metadata": {}
+                    },
+                    "create_time": 1687872528.044457,
+                    "update_time": null,
+                    "content": {
+                        "content_type": "text",
+                        "parts": [""]
+                    },
+                    "status": "finished_successfully",
+                    "end_turn": true,
+                    "weight": 1.0,
+                    "metadata": {},
+                    "recipient": "all"
+                },
+                "parent": "aaa16be0-f804-43b9-ade2-a81324535119",
+                "children": ["aaa23995-414a-4548-9de3-bc13a518af96"]
+            },
+            "aaa16be0-f804-43b9-ade2-a81324535119": {
+                "id": "aaa16be0-f804-43b9-ade2-a81324535119",
+                "message": null,
+                "parent": null,
+                "children": ["34d56eb4-d4a9-48d3-907e-257ec129f569"]
+            },
+            "aaa23995-414a-4548-9de3-bc13a518af96": {
+                "id": "aaa23995-414a-4548-9de3-bc13a518af96",
+                "message": {
+                    "id": "aaa23995-414a-4548-9de3-bc13a518af96",
+                    "author": {
+                        "role": "user",
+                        "name": null,
+                        "metadata": {}
+                    },
+                    "create_time": 1687872528.045307,
+                    "update_time": null,
+                    "content": {
+                        "content_type": "text",
+                        "parts": ["Write 10 interesting facts about Israel"]
+                    },
+                    "status": "finished_successfully",
+                    "end_turn": null,
+                    "weight": 1.0,
+                    "metadata": {
+                        "timestamp_": "absolute",
+                        "message_type": null
+                    },
+                    "recipient": "all"
+                },
+                "parent": "34d56eb4-d4a9-48d3-907e-257ec129f569",
+                "children": ["a7140286-5be1-4a86-97ee-bddcb9e57617"]
+            },
+            "a7140286-5be1-4a86-97ee-bddcb9e57617": {
+                "id": "a7140286-5be1-4a86-97ee-bddcb9e57617",
+                "message": {
+                    "id": "a7140286-5be1-4a86-97ee-bddcb9e57617",
+                    "author": {
+                        "role": "assistant",
+                        "name": null,
+                        "metadata": {}
+                    },
+                    "create_time": 1687872554.088834,
+                    "update_time": null,
+                    "content": {
+                        "content_type": "text",
+                        "parts": ["1. Israel is the only country in the world that has Hebrew as its official language. It is a revival of the ancient Hebrew language and is now spoken by the majority of the Israeli population.\n\n2. Despite its small size, Israel has a diverse landscape that includes deserts, mountains, coastal plains, and the Dead Sea, which is the lowest point on Earth.\n\n3. Israel has the highest number of museums per capita in the world. The country is known for its rich history, and museums like the Israel Museum in Jerusalem and the Tel Aviv Museum of Art house extensive collections of art, archaeology, and historical artifacts.\n\n4. Technological innovation is a significant aspect of Israel's economy, earning it the nickname \"Startup Nation.\" Israeli companies and entrepreneurs have made significant contributions to fields like cybersecurity, biotechnology, agriculture, and renewable energy.\n\n5. Israel is a global leader in water conservation and desalination. Through innovative techniques such as desalination plants and water recycling, Israel has managed to overcome its water scarcity challenges and has become a water exporter.\n\n6. The city of Haifa in Israel is home to the Baha'i World Centre, a UNESCO World Heritage Site. It is the spiritual and administrative center of the Baha'i faith and attracts followers and visitors from around the world.\n\n7. Israeli cuisine is a fusion of various culinary traditions, including Middle Eastern, Mediterranean, North African, and Eastern European influences. Dishes like falafel, hummus, shawarma, and Israeli salad have gained popularity worldwide.\n\n8. Israel has the highest number of museums per capita in the world. The country is known for its rich history, and museums like the Israel Museum in Jerusalem and the Tel Aviv Museum of Art house extensive collections of art, archaeology, and historical artifacts.\n\n9. Israel is home to the Dead Sea, a unique saltwater lake that is the lowest point on Earth. Its high salt concentration makes it impossible for swimmers to sink, leading to the popular phrase \"floating in the Dead Sea.\"\n\n10. Jerusalem, the capital city of Israel, is considered one of the oldest cities in the world, with a history dating back thousands of years. It holds religious significance for Judaism, Christianity, and Islam, with important religious sites such as the Western Wall, the Church of the Holy Sepulchre, and the Dome of the Rock."]
+                    },
+                    "status": "finished_successfully",
+                    "end_turn": true,
+                    "weight": 1.0,
+                    "metadata": {
+                        "message_type": null,
+                        "model_slug": "text-davinci-002-render-sha",
+                        "finish_details": {
+                            "type": "stop",
+                            "stop": "<|diff_marker|>"
+                        },
+                        "timestamp_": "absolute"
+                    },
+                    "recipient": "all"
+                },
+                "parent": "aaa23995-414a-4548-9de3-bc13a518af96",
+                "children": []
+            }
+        },
+        "moderation_results": [],
+        "current_node": "a7140286-5be1-4a86-97ee-bddcb9e57617",
+        "plugin_ids": null,
+        "id": "67e78f30-b7eb-4b3a-a1d7-081faa2413dc"
+    }
+]
